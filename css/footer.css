@@ -1,0 +1,26 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0 20px 0;
+}
+.footer .texto-footer {
+    bottom: 30px;
+    width: 100%;
+    margin: auto;
+}
+.footer .texto-footer ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .texto-footer ul li {
+    font-weight: 500;
+}
+
+@media(min-width: 992px) {
+    .footer .texto-footer ul li {
+        border-top: 1px solid #016ea1;
+        padding: 5px 100px;
+    }
+}

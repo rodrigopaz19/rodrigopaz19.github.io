@@ -1,0 +1,53 @@
+.proyectos {
+    background-color: #000;
+    color: #fff;
+    padding: 80px 0;
+}
+.proyectos h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.proyecto {
+    margin-bottom: 50px;
+}
+.proyecto-imagen {
+    height: 300px;
+    margin-bottom: 20px;
+}
+.proyecto-informacion {
+    padding: 15px;
+}
+.proyecto button {
+  transition: all ease .3s;
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background-color: #016ea1;
+}
+.proyecto button:hover {
+  background-color: #191d1f;
+}
+
+@media(min-width: 768px) {
+  .proyecto-imagen {
+    width: 70%;
+    margin: auto;
+  }
+  .proyecto-informacion {
+    padding: 15px 50px;
+  }
+}
+
+@media(min-width: 992px) {
+  .proyectos-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .proyectos-contenedor .proyecto {
+    width: 50%;
+  }
+}
