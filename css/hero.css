@@ -62,7 +62,7 @@ html,body {
   text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.75);
 }
 .hero-texto-principal {
-  top: 20vh;
+  top: 10vh;
   left: 20px;
   font-size: 4.5em;
 }
@@ -123,3 +123,4 @@ html,body {
   }
 
 }
+
