@@ -62,7 +62,7 @@ html,body {
   text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.75);
 }
 .hero-texto-principal {
-  top: 28vh;
+  top: 20vh;
   left: 20px;
   font-size: 4.5em;
 }
@@ -106,7 +106,8 @@ html,body {
 
 @media(min-width: 768px) {
   .hero-texto-principal {
-    left: 50px;
+      top: 28vh;
+      left: 50px;
   }
   .hero-cta button {
     left: 50px;
@@ -120,4 +121,5 @@ html,body {
   .hero-cta button {
     left: 75px;
   }
+
 }
