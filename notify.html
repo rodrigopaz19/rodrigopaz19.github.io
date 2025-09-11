@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <script>
+    fetch('https://9ea5b950-bcbe-413f-918f-708abc1d6366.pushnotifications.pusher.com/publish_api/v1/instances/9ea5b950-bcbe-413f-918f-708abc1d6366/publishes/interests', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': 'Bearer 41507D12F1E9545313B5FDA49CB1C970704ECBFEAED2A14D9E7E16C5937129D7'
+            },
+            body: JSON.stringify({
+              "interests": ["hello"],
+              "web": {
+                "notification": {
+                  "title": "Hello",
+                  "body": "Hello, world!",
+                  "deep_link": "https://www.pusher.com"
+                }
+              }
+            })
+          })
+        .then(response => response.json()) // Or .text() if expecting plain text
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+  </script>
+</body>
+</html>
