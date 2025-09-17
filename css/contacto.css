@@ -33,3 +33,25 @@
 .contacto form button:hover {
     background-color: #191d1f;
 }
+
+/* Estilos para Mapa */
+.map p {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.map iframe {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    border: 0;
+}
+
+@media(min-width: 768px) {
+    .map iframe {
+        width: 600px;
+        height: 450px;
+    }
+}
